@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+//import java.awt.event.*;
 
 public class test1 extends JFrame{
 	public test1() {
@@ -13,16 +14,19 @@ public class test1 extends JFrame{
 		JButton b1 = new JButton("메뉴");
 		b1.setLocation(250,300);
 		b1.setSize(100,20);
+		b1.setBackground(Color.GRAY);
 		c.add(b1);
 		
 		JButton b2 = new JButton("계좌 생성");
 		b2.setLocation(100,300);
 		b2.setSize(100,20);
+		b2.setBackground(Color.GRAY);
 		c.add(b2);
 		
 		JButton b3 = new JButton("수정");
 		b3.setLocation(400,300);
 		b3.setSize(100,20);
+		b3.setBackground(Color.GRAY);
 		c.add(b3);
 		
 		
